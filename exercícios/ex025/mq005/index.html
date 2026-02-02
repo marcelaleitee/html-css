@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
+        <menu id="itens">
+            <ul>
+                <li><a href="#">Opção 1</a></li>
+                <li><a href="#">Opção 2</a></li>
+                <li><a href="#">Opção 3</a></li>
+                <li><a href="#">Opção 4</a></li>
+                <li><a href="#">Opção 5</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Testando Media Queries</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate cupiditate illo sunt perspiciatis impedit necessitatibus ipsam facilis nulla architecto? Distinctio culpa blanditiis quod debitis quae! Magnam perferendis eaque corrupti earum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, repellendus aut corporis necessitatibus laudantium velit veniam tenetur. Ea explicabo labore quod, temporibus qui molestiae quidem provident dolorum deleniti eos corrupti.</p>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore alias, impedit nihil dolor quae, fugit quidem iusto ad sequi corporis quo quaerat nisi, iste animi minima neque asperiores. Cumque, corporis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ut recusandae, iure nesciunt labore ipsa suscipit minima iusto consequuntur porro autem natus cupiditate facere commodi similique nam repellendus libero doloremque.</p>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, facilis veniam culpa, quis nulla deserunt officia hic suscipit blanditiis, eaque quidem quam commodi? Vero commodi excepturi modi tempore perferendis alias. Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, perspiciatis, nostrum optio culpa deleniti ratione quas dolorem consequuntur, voluptate eum fugiat magni? Voluptates provident quaerat at maiores perferendis debitis est!</p>
+
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia sint earum numquam consequatur obcaecati dicta, aliquid illo a nemo blanditiis voluptatum eos tenetur molestiae error nobis perspiciatis id minus rerum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae dolore ut animi illo veritatis a magni, est esse hic expedita quasi ipsam, voluptatibus beatae pariatur earum numquam, minus molestias placeat!</p>
+        </article>
+    </main>
+    <script>
+        function clickMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+</html>
