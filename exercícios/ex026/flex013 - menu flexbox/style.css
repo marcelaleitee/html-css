@@ -15,17 +15,43 @@ body {
 }
 
 header {
-    background-color: rgb(93, 181, 210);
+    background-color: rgb(83, 191, 227);
     color: whitesmoke;
     padding: 20px;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
 }
 
 header > h1 {
     border: 1px dotted black;
+    flex: 0 0 200px;
 }
 
 header > nav {
     border: 1px dotted black;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+}
+
+header > nav > a {
+    background-color: rgb(169, 169, 236);
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+}
+
+header > nav > a:hover {
+    background-color: white;
+    color: rgb(169, 169, 236);
+    transition: background-color 0.5s;
 }
 
 main {
